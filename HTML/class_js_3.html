@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables</title>
+</head>
+<body>
+    <!--
+        Store values
+
+        Variable
+        define_variable(var) var_name = var_value
+
+        var color = "blue" //DEFINING A VARIABLE , ASSIGNING A VALU
+        Can change the value
+        color = "pink"
+        var color = "purple"
+
+        Let
+        define_variable(let) let_name = let_value
+        let game = "football"
+        Can change the value
+        game = "cricket"
+        let game = "doge ball" ->ERROR //CAN NOT REDEFINE A VARIABLE LET AGAIN WITH SAME NAME
+
+
+        Constant
+        define_variable(const) const_name = const_value
+        const numb = 8
+        numb = 9 -> ERROR // CAN NOT CHANGE THE VALUE OF CONSTANT
+
+
+     -->
+
+     <p id="test1">this is a simple para</p>
+     <p id="test2">This is another para</p>
+     <p id="test3">This is third para</p>
+
+
+     <script>
+         var food = "Mango"
+         food = "Banana"
+         var food = "Pinapple"
+         document.getElementById("test1").innerHTML = food;
+
+         let car = "Mehran"
+         car = "suzuki"
+        //  Can not redefine a let
+        //  let car = "Alto"
+         document.getElementById("test2").innerHTML = car;
+
+         const brands = "Asus"
+        //  can not give another value to constant variable
+        //  brands = "Hp"
+
+        //  Can not redefine a let
+        // const brands = "Del"
+        
+         document.getElementById("test3").innerHTML = brands;
+
+     </script>
+    
+</body>
+</html>

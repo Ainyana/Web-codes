@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <p id="test1">This is paragraph</p>
+    <p id="test2">This is another paragraph</p>
+    <p id="test3">This is three paragraph</p>
+    <p id="test4"></p>
+    <!-- function test(){
+        document.getElementById('test4').innerHTML = 3+4;
+    } -->
+    <script>
+
+
+        document.write("HEllo this is without an id ")
+        document.write(7*9+63993)
+        // ctrl+/
+        // document.getElementById('test1').innerHTML = 2+2;
+        // document.getElementById('test2').innerHTML = 5+6;
+        // document.getElementById('test3').innerHTML = 1+2;
+
+        // Created the function
+        function test(newid,number1,number2){
+            document.getElementById(newid).innerHTML = number1+number2;
+        }
+        // Calling the function
+        test('test1',3,5);
+        test('test2',2,5);
+
+        window.alert('Do you want to continue this website? Press "OK" to continue...')
+        window.alert('Another alert')
+        
+    </script>
+    
+</body>
+</html>
